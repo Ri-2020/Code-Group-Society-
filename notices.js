@@ -1,7 +1,7 @@
 var notices = [
     {
         title: "21 Days of code Information",
-        content : "Some rules and information about the new CGS's 12 days of code.",
+        content : "Some rules and information about the new CGS's 21 days of code.",
         date: "24 September, 2021",
         link: "https://drive.google.com/file/d/1aPzPybduVit6exszSYqWdJQmJesBaPp7/view?usp=drivesdk",
         img: "https://yt3.ggpht.com/ytc/AKedOLRn7y2EFXPcZB4Bndc0X38tS81O0O0v8iRgD0iu=s900-c-k-c0x00ffffff-no-rj"

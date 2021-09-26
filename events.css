@@ -13,8 +13,8 @@
   background-color: #c7ece2;
   color: black;
   border-radius: 0.1em;
-  position: sticky;
-  top: 1em;
+  /* position: sticky;
+  top: 6em; */
   margin-bottom: 3em;
   border-radius: 2px;
   border-left: 10px solid #02986f;
@@ -25,6 +25,8 @@
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  background-color: #f1f1f1;
+  padding: 2em;
 }
 
 .ruleslist {
@@ -38,7 +40,11 @@
 }
 
 .tasks {
+  /* display: flex; */
   display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-wrap: wrap;
 }
 
 .taskcard {

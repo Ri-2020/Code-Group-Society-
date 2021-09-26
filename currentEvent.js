@@ -7,6 +7,7 @@ var currentEvents = [
         date: "27 september, 2021",
         day: "01"
     }
+    
 ];
 
 function renderTasks(){
