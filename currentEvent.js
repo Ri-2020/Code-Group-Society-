@@ -1,8 +1,8 @@
 
 var currentEvents = [
     {
-        title : "Recursion",
-        content: "Make a simple program you just have to use recursion in your program. Do not make factorial program.",
+        title : "Loops",
+        content: "Make a simple program you just have to use loop inside a loop (nested loop) in your program.",
         link : "https://forms.gle/TtLrB85X8VfMnt5F9",
         date: "27 september, 2021",
         day: "01"

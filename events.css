@@ -90,6 +90,7 @@
   width: min-content;
   padding: 0.4em;
   border-radius: 0.4em;
+  margin-top: 1em;
 }
 
 .btn:hover {
