@@ -6,8 +6,14 @@ var currentEvents = [
         link : "https://forms.gle/TtLrB85X8VfMnt5F9",
         date: "27 september, 2021",
         day: "01"
+    },
+    {
+      title : "Function",
+      content: "Make a program with two functions the second function will be called inside the first function.",
+      link : "https://forms.gle/fj6YUcPGZm9TVjQ39",
+      date: "28 september, 2021",
+      day: "02"
     }
-    
 ];
 
 function renderTasks(){
