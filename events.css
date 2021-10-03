@@ -12,7 +12,7 @@
   align-items: center;
   background-color: #c7ece2;
   color: black;
-  border-radius: 0.1em;
+  border-radius: 0.2em;
   /* position: sticky;
   top: 6em; */
   margin-bottom: 3em;
@@ -24,8 +24,11 @@
   margin: 3em;
   display: flex;
   justify-content: flex-start;
+  border-radius: .2em;
   flex-direction: column;
   background-color: #f1f1f1;
+  color: rgb(66, 66, 42);
+  /* color: black; */
   padding: 2em;
 }
 
@@ -42,15 +45,16 @@
 .tasks {
   /* display: flex; */
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
   /* align-items: center; */
   flex-wrap: wrap;
 }
 
 .taskcard {
   display: flex;
-  justify-content: start;
-  flex-direction: column;
+  justify-content:space-between;
+  align-items:stretch;
+  flex-direction:column;
   width: 200px;
   text-decoration: none;
   margin: 1em;
@@ -70,7 +74,7 @@
 }
 
 .content {
-  color: gray;
+  color: rgb(66, 66, 66);
 }
 
 .cardtitle {
@@ -95,4 +99,19 @@
 
 .btn:hover {
   background-color: gray;
+}
+
+
+@media screen and (max-width: 550px){
+  .rules{
+    margin: 1em;
+    padding: 1em;
+    font-size: 80%;
+  }
+  .taskshead{
+    font-size: 80%;
+  }
+  .taskcard{
+    width: 95vw;
+  }
 }
